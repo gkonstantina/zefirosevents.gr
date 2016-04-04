@@ -3,7 +3,7 @@
 ---
 body {
     background-color: #f2f2f2;
-    font-family: Lato;
+    font-family: 'Open Sans', sans-serif;;
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -11,7 +11,7 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: Raleway;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #333;
 }
@@ -97,7 +97,7 @@ hr {
     width: 200px;
     height: 100%}
 .menu h1.logo a {
-    font-family: Raleway, Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 800;
     letter-spacing: .15em;
@@ -558,4 +558,11 @@ hr {
     transform: translateY(0);
     opacity: 1;
 }
+}
+
+// custom styles
+
+.text-justify
+{
+  text-align: justify;
 }

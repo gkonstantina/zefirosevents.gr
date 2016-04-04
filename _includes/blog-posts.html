@@ -5,31 +5,22 @@
       <h1>To blog μας</h1>
     </div><!-- col-lg-12 -->
     <div class="col-lg-8">
-      <p>Our latests thoughts about things that only matters to us.</p>
+      <p>Oι πρόσφατες σκέψεις μας...</p>
     </div><!-- col-lg-8-->
     <div class="col-lg-4 goright">
-      <p><a href="#"><i class="fa fa-angle-right"></i> See All Posts</a></p>
+      <p><a href="#"><i class="fa fa-angle-right"></i> Δείτε όλες τις αναρτήσεις</a></p>
     </div>
   </div><!-- row -->
 
   <div class="row mt">
+    {% for post in site.posts %}
     <div class="col-lg-4">
-      <img class="img-responsive" src="img/post01.jpg" alt="">
-      <h3><a href="#">Designing for the reader experience</a></h3>
-      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-      <p><a href="#"><i class="fa fa-link"></i> Read More</a></p>
+      <img class="img-responsive" src="{{ post.img }}" alt="">
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt }}</p>
+      <p><a href="{{ post.url }}"><i class="fa fa-link"></i> Περισσότερα</a></p>
     </div>
-    <div class="col-lg-4">
-      <img class="img-responsive" src="img/post02.jpg" alt="">
-      <h3><a href="#">25 Examples of flat web & application design</a></h3>
-      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-      <p><a href="#"><i class="fa fa-link"></i> Read More</a></p>
-    </div>
-    <div class="col-lg-4">
-      <img class="img-responsive" src="img/post03.jpg" alt="">
-      <h3><a href="#">We are an award winning design agency</a></h3>
-      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-      <p><a href="#"><i class="fa fa-link"></i> Read More</a></p>
-    </div>
+
+    {% endfor %}
   </div><!-- row -->
 </div><!-- container -->

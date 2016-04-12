@@ -212,7 +212,7 @@ hr {
     transition: all .1s ease-in-out;
 }
 #headerwrap {
-    background: url(../img/head.jpg) no-repeat center top;
+    background: url(../img/header2.jpg) no-repeat center top;
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
@@ -254,7 +254,7 @@ hr {
     padding: 0;
 }
 #serviceswrap {
-    background: url(../img/services-bg.jpg) no-repeat center top;
+    background: url(../img/header1.jpg) no-repeat center top;
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
@@ -565,4 +565,19 @@ hr {
 .text-justify
 {
   text-align: justify;
+}
+
+.post-container
+{
+  padding-left: 20%;
+  padding-right: 20%;
+  ul
+  {
+    list-style: square;
+  }
+}
+
+.post-image
+{
+  height: 200px;
 }

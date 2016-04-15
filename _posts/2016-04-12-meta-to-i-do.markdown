@@ -2,7 +2,7 @@
 layout: post
 title:  "Μετά το 'I Do'... Τι;"
 date:   2016-04-12 20:39:59
-categories: γάμος
+categories: wedding
 img: "/img/i-do.jpg"
 tags: γάμος, νύφη
 ---

@@ -10,3 +10,5 @@ twitter_username: zefiroscafe
 
 # Build settings
 markdown: kramdown
+
+permalink: /:categories/:title.html

@@ -12,3 +12,7 @@ twitter_username: zefiroscafe
 markdown: kramdown
 
 permalink: /:categories/:title.html
+
+# gems
+gems:
+  - jekyll-sitemap

@@ -254,7 +254,7 @@ hr {
     padding: 0;
 }
 #serviceswrap {
-    background: url(../img/header1.jpg) no-repeat center top;
+    background: url(../img/services-bg.jpg) no-repeat center top;
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
@@ -272,6 +272,7 @@ hr {
     background-size: cover;
 }
 #serviceswrap h2 {
+    font-family: Raleway;
     color: #fff;
     font-size: 50px;
     font-weight: 400;
@@ -473,6 +474,12 @@ hr {
     -webkit-animation: moveUp .65s ease forwards;
     -moz-animation: moveUp .65s ease forwards;
     animation: moveUp .65s ease forwards;
+}
+.process h1
+{
+  font-size: xx-large;
+  font-style: italic;
+  line-height: 1.5em;
 }
 @-webkit-keyframes moveUp {
     to {

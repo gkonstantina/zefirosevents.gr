@@ -12,7 +12,7 @@ email: info@zefirosevents.gr
 description: 'Cafe Bar Restaurant Events Νέα Αρτάκη, Χαλκίδα, Εύβοια
 
 '
-baseurl: ''
+baseurl: 
 url: http://zefirosevents.gr
 twitter_username: zefiroscafe
 markdown: kramdown

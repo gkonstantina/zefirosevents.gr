@@ -1,10 +1,13 @@
 ---
+title: Μετά το 'I Do'... Τι;
+date: 2016-04-12 20:39:59 Z
+categories:
+- wedding
+tags:
+- γάμος,
+- νύφη
 layout: post
-title:  "Μετά το 'I Do'... Τι;"
-date:   2016-04-12 20:39:59
-categories: wedding
 img: "/img/i-do.jpg"
-tags: γάμος, νύφη
 ---
 
 Ε ναι λοιπόν ήρθε η μεγάλη στιγμή, είπατε το 'I do' και τώρα;..;

@@ -1,18 +1,21 @@
-# Site settings
+---
 title: Zefiros Events
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: info@zefirosevents.gr
-description: > # this means to ignore newlines until "baseurl:"
-  Cafe Bar Restaurant Events
-  Νέα Αρτάκη, Χαλκίδα, Εύβοια
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://zefirosevents.gr" # the base hostname & protocol for your site
+description: 'Cafe Bar Restaurant Events Νέα Αρτάκη, Χαλκίδα, Εύβοια
+
+'
+baseurl: ''
+url: http://zefirosevents.gr
 twitter_username: zefiroscafe
-
-# Build settings
 markdown: kramdown
-
-permalink: /:categories/:title.html
-
-# gems
+permalink: "/:categories/:title.html"
 gems:
-  - jekyll-sitemap
+- jekyll-sitemap

@@ -8,7 +8,7 @@ tags:
 - ''
 - δεξίωση
 - χειμώνας
-Field name: img
+img: "/uploads/winter-wedding-idea-1.jpg"
 layout: post
 ---
 

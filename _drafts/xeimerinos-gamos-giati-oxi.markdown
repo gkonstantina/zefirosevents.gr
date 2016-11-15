@@ -5,10 +5,9 @@ categories:
 - wedding
 tags:
 - γάμος
-- ''
 - δεξίωση
 - χειμώνας
-img: "/uploads/winter-wedding-idea-1.jpg"
+img: "/img/winter-wedding-idea-1.jpg"
 layout: post
 ---
 

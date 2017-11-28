@@ -13,7 +13,7 @@ description: 'Cafe Bar Restaurant Events Νέα Αρτάκη, Χαλκίδα, Ε
 
 '
 baseurl: 
-url: http://zefirosevents.gr
+url: https://zefirosevents.gr
 twitter_username: zefiroscafe
 markdown: kramdown
 permalink: "/:categories/:title.html"
